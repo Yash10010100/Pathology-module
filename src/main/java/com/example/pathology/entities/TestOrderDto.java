@@ -14,4 +14,5 @@ import java.util.UUID;
 public class TestOrderDto {
     private String patientName;
     private Integer phoneNumber;
+    private UUID selectedTest;
 }
