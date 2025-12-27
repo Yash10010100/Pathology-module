@@ -10,7 +10,7 @@ This project is designed as a backend technical assignment.
 ---
 
 ## Tech Stack
-- Java 17
+- Java 21
 - Spring Boot
 - Spring Data JPA
 - MySQL (Docker)
@@ -26,7 +26,7 @@ This project is designed as a backend technical assignment.
 ---
 
 ## Prerequisites
-- Java 17+
+- Java 21+
 - Maven
 - Docker & Docker Compose
 
@@ -42,4 +42,4 @@ docker run --name pathology-mysql \
   -e MYSQL_ROOT_PASSWORD=root \
   -e MYSQL_DATABASE=pathology_db \
   -p 3306:3306 \
-  -d mysql:8
+  -d mysql
