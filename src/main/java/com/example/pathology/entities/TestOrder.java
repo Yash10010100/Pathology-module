@@ -29,6 +29,7 @@ public class TestOrder {
     private LocalDateTime orderDate;
 
     @OneToOne
+    @JoinColumn(name = "test_result_id")
     private TestResult testResult;
 
     @ManyToOne
